@@ -537,4 +537,651 @@
 <!-- ═══════════════════════ NAVIGATION ═══════════════════════ -->
 <nav id="nav">
   <div class="nav-inner">
-    <a href="#" class="logo">SF <em>
+    <a href="#" class="logo">SF <em>Auto</em> Detail</a>
+    <div class="nav-links">
+      <a href="#services" class="nav-a">Services</a>
+      <a href="#pricing" class="nav-a">Pricing</a>
+      <a href="#why" class="nav-a">Why Us</a>
+      <a href="tel:4157761844" class="nav-cta">☎ 415-776-1844</a>
+    </div>
+    <button id="ham" aria-label="Menu" onclick="toggleMenu()">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<!-- Mobile menu -->
+<div id="mobile-menu">
+  <a href="#services" class="mm-link" onclick="toggleMenu()">Services</a>
+  <a href="#pricing" class="mm-link" onclick="toggleMenu()">Pricing</a>
+  <a href="#why" class="mm-link" onclick="toggleMenu()">Why Us</a>
+  <a href="tel:4157761844" class="mm-link" onclick="toggleMenu()" style="color:var(--gold)">415-776-1844</a>
+</div>
+
+
+<!-- ═══════════════════════ HERO ═══════════════════════════ -->
+<section id="hero">
+  <div class="hero-mesh"></div>
+  <div class="hero-grid-lines"></div>
+  <div class="hero-big-text">SF</div>
+  <div class="hero-line-h top"></div>
+  <div class="hero-line-h bot"></div>
+
+  <div class="hero-content">
+    <p class="hero-eyebrow" id="h-eye">San Francisco · Any Make · Any Model</p>
+
+    <h1 class="hero-h1">
+      <span class="h1-l1" style="display:block">Premium Auto</span>
+      <span class="h1-l2 italic" style="display:block">Detailing</span>
+      <span class="h1-l3" style="display:block">Excellence</span>
+    </h1>
+
+    <div class="hero-divider" id="h-div"></div>
+
+    <p class="hero-sub" id="h-sub">
+      Hand-crafted care for every vehicle — cars, SUVs, trucks, and motorcycles. From a quick hand wash to a full multi-stage detail, we deliver perfection.
+    </p>
+
+    <div class="hero-btns" id="h-btns">
+      <a href="tel:4157761844" class="btn-gold">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M6.6 10.8c1.4 2.8 3.8 5.1 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1-9.4 0-17-7.6-17-17 0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.3.2 2.5.6 3.6.1.3 0 .7-.2 1L6.6 10.8z"/></svg>
+        Book Now · 415-776-1844
+      </a>
+      <a href="#services" class="btn-outline">
+        Explore Services
+        <svg width="12" height="12" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+      </a>
+    </div>
+  </div>
+
+  <!-- Stats bar -->
+  <div class="hero-stats">
+    <div class="stats-inner">
+      <div class="stat-item">
+        <div class="stat-num">8</div>
+        <div class="stat-lbl">Service Packages</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-num" style="font-size:1.5rem;padding-top:.35rem">SF</div>
+        <div class="stat-lbl">Local & Proud</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-num" style="font-size:1.5rem;padding-top:.35rem">Any</div>
+        <div class="stat-lbl">Make & Model</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-num" style="font-size:1.1rem;padding-top:.6rem;letter-spacing:.05em">★★★★★</div>
+        <div class="stat-lbl">Premium Quality</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════ MARQUEE ════════════════════════ -->
+<div class="marquee-wrap">
+  <div class="marquee-track">
+    <div class="mq-item">Exterior Hand Wash<span class="mq-dot"></span></div>
+    <div class="mq-item">Leather Conditioning<span class="mq-dot"></span></div>
+    <div class="mq-item">Orbital Wax<span class="mq-dot"></span></div>
+    <div class="mq-item">Paint Correction<span class="mq-dot"></span></div>
+    <div class="mq-item">Oxidation Removal<span class="mq-dot"></span></div>
+    <div class="mq-item">Interior Detailing<span class="mq-dot"></span></div>
+    <div class="mq-item">Ceramic Coating Available<span class="mq-dot"></span></div>
+    <div class="mq-item">Motorcycles Welcome<span class="mq-dot"></span></div>
+    <div class="mq-item">Post Burning Man Specialists<span class="mq-dot"></span></div>
+    <div class="mq-item">Tire Conditioning<span class="mq-dot"></span></div>
+    <!-- Duplicate for seamless loop -->
+    <div class="mq-item">Exterior Hand Wash<span class="mq-dot"></span></div>
+    <div class="mq-item">Leather Conditioning<span class="mq-dot"></span></div>
+    <div class="mq-item">Orbital Wax<span class="mq-dot"></span></div>
+    <div class="mq-item">Paint Correction<span class="mq-dot"></span></div>
+    <div class="mq-item">Oxidation Removal<span class="mq-dot"></span></div>
+    <div class="mq-item">Interior Detailing<span class="mq-dot"></span></div>
+    <div class="mq-item">Ceramic Coating Available<span class="mq-dot"></span></div>
+    <div class="mq-item">Motorcycles Welcome<span class="mq-dot"></span></div>
+    <div class="mq-item">Post Burning Man Specialists<span class="mq-dot"></span></div>
+    <div class="mq-item">Tire Conditioning<span class="mq-dot"></span></div>
+  </div>
+</div>
+
+
+<!-- ══════════════════════ SERVICES ═══════════════════════ -->
+<section id="services" style="padding: 7rem 0 5rem">
+  <div style="max-width:1320px;margin:0 auto;padding:0 2rem">
+
+    <!-- Header -->
+    <div style="margin-bottom:4.5rem">
+      <p class="section-eyebrow js-up" style="margin-bottom:1rem">Our Services</p>
+      <h2 class="section-title js-up" style="max-width:580px;margin-bottom:1.4rem">
+        Every Vehicle<br>Deserves <em>Perfection</em>
+      </h2>
+      <div class="gold-rule js-up" style="margin-bottom:1.4rem"></div>
+      <p class="js-up" style="font-size:.85rem;color:var(--muted-light);max-width:480px;line-height:1.85">
+        Hand-crafted technique, premium products, and uncompromising attention to detail — from a quick wash to a show-ready multi-stage polish.
+      </p>
+    </div>
+
+    <!-- ── CARDS GRID ── -->
+    <div id="pricing" style="display:grid;grid-template-columns:repeat(auto-fill,minmax(330px,1fr));gap:1.5rem;margin-bottom:2rem">
+
+      <!-- 1 · SF Car Wash -->
+      <div class="card svc-card" style="padding:2.4rem">
+        <div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:1.4rem">
+          <div>
+            <span class="tier-pill tier-base" style="margin-bottom:.65rem;display:inline-block">Essential</span>
+            <div class="card-name">SF Car Wash</div>
+          </div>
+          <div style="text-align:right">
+            <div class="card-from">From</div>
+            <div class="card-price">$75</div>
+          </div>
+        </div>
+        <div style="flex:1">
+          <div class="inc-label">Includes</div>
+          <div class="feature-row"><span class="dash">—</span>Exterior hand wash</div>
+          <div class="feature-row"><span class="dash">—</span>Spray wax rinse</div>
+          <div class="feature-row"><span class="dash">—</span>Wheel-well cleaning</div>
+          <div class="feature-row"><span class="dash">—</span>Interior vacuuming (including trunk)</div>
+          <div class="feature-row"><span class="dash">—</span>Glass cleaning</div>
+          <div class="feature-row"><span class="dash">—</span>Dry with microfiber towel</div>
+        </div>
+        <div class="price-grid" style="margin-top:1.8rem">
+          <div class="pg-cell"><div class="pg-size">Small</div><div class="pg-val">$75</div></div>
+          <div class="pg-cell"><div class="pg-size">Medium</div><div class="pg-val">$85</div></div>
+          <div class="pg-cell"><div class="pg-size">Large</div><div class="pg-val">$95</div></div>
+        </div>
+      </div>
+
+      <!-- 2 · SF Deluxe Car Wash -->
+      <div class="card svc-card" style="padding:2.4rem">
+        <div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:1.4rem">
+          <div>
+            <span class="tier-pill tier-plus" style="margin-bottom:.65rem;display:inline-block">Premium</span>
+            <div class="card-name">SF Deluxe Wash</div>
+          </div>
+          <div style="text-align:right">
+            <div class="card-from">From</div>
+            <div class="card-price">$180</div>
+          </div>
+        </div>
+        <div style="flex:1">
+          <div class="inc-label" style="color:var(--muted-light)">SF Car Wash +</div>
+          <div class="feature-row"><span class="dash">—</span>Spray paint body gloss</div>
+          <div class="feature-row"><span class="dash">—</span>Carpet / floor mat spot cleaning</div>
+          <div class="feature-row"><span class="dash">—</span>Leather conditioning</div>
+          <div class="feature-row"><span class="dash">—</span>Tire conditioning</div>
+        </div>
+        <div class="price-grid" style="margin-top:1.8rem">
+          <div class="pg-cell"><div class="pg-size">Small</div><div class="pg-val">$180</div></div>
+          <div class="pg-cell"><div class="pg-size">Medium</div><div class="pg-val">$220</div></div>
+          <div class="pg-cell"><div class="pg-size">Large</div><div class="pg-val">$260</div></div>
+        </div>
+      </div>
+
+      <!-- 3 · SF Ultimate Car Wash -->
+      <div class="card svc-card" style="padding:2.4rem">
+        <div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:1.4rem">
+          <div>
+            <span class="tier-pill tier-plus" style="margin-bottom:.65rem;display:inline-block">Premium+</span>
+            <div class="card-name">SF Ultimate Wash</div>
+          </div>
+          <div style="text-align:right">
+            <div class="card-from">From</div>
+            <div class="card-price">$300</div>
+          </div>
+        </div>
+        <div style="flex:1">
+          <div class="inc-label" style="color:var(--muted-light)">SF Deluxe +</div>
+          <div class="feature-row"><span class="dash">—</span>Exterior hand waxing</div>
+          <div class="feature-row"><span class="dash">—</span>Interior minor spot touch-up</div>
+          <div class="feature-row"><span class="dash">—</span>Complete glass cleaning</div>
+        </div>
+        <div class="price-grid" style="margin-top:1.8rem">
+          <div class="pg-cell"><div class="pg-size">Small</div><div class="pg-val">$300</div></div>
+          <div class="pg-cell"><div class="pg-size">Medium</div><div class="pg-val">$340</div></div>
+          <div class="pg-cell"><div class="pg-size">Large</div><div class="pg-val">$360</div></div>
+        </div>
+      </div>
+
+      <!-- 4 · SF Hand Wax -->
+      <div class="card svc-card" style="padding:2.4rem">
+        <div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:1.4rem">
+          <div>
+            <span class="tier-pill tier-elite" style="margin-bottom:.65rem;display:inline-block">Elite</span>
+            <div class="card-name">SF Hand Wax</div>
+          </div>
+          <div style="text-align:right">
+            <div class="card-from">From</div>
+            <div class="card-price">$450</div>
+          </div>
+        </div>
+        <div style="flex:1">
+          <div class="inc-label" style="color:var(--muted-light)">SF Deluxe +</div>
+          <div class="feature-row"><span class="dash">—</span>Oxidation removal</div>
+          <div class="feature-row"><span class="dash">—</span>1-stage orbital wax</div>
+        </div>
+        <div class="price-grid" style="margin-top:1.8rem">
+          <div class="pg-cell"><div class="pg-size">Small</div><div class="pg-val">$450</div></div>
+          <div class="pg-cell"><div class="pg-size">Medium</div><div class="pg-val">$480</div></div>
+          <div class="pg-cell"><div class="pg-size">Large</div><div class="pg-val">$550</div></div>
+        </div>
+      </div>
+
+      <!-- 5 · SF Mini Detail -->
+      <div class="card svc-card" style="padding:2.4rem">
+        <div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:1.4rem">
+          <div>
+            <span class="tier-pill tier-elite" style="margin-bottom:.65rem;display:inline-block">Elite</span>
+            <div class="card-name">SF Mini Detail</div>
+          </div>
+          <div style="text-align:right">
+            <div class="card-from">From</div>
+            <div class="card-price">$450</div>
+          </div>
+        </div>
+        <div style="flex:1">
+          <div class="inc-label">Includes</div>
+          <div class="feature-row"><span class="dash">—</span>Interior reconditioning</div>
+          <div class="feature-row"><span class="dash">—</span>Carpet & fabric seat shampooing + complete dry</div>
+          <div class="feature-row"><span class="dash">—</span>Panel cream protection</div>
+          <div class="feature-row"><span class="dash">—</span>Leather/vinyl complete clean & protection</div>
+          <div class="feature-row"><span class="dash">—</span>SF Car Wash included</div>
+          <div style="font-size:.68rem;color:var(--muted);font-style:italic;margin-top:.8rem;line-height:1.7">
+            Add-ons: seatbelt cleaning, sand / dog hair removal, window repair, ceiling cleaning
+          </div>
+        </div>
+        <div class="price-grid" style="margin-top:1.8rem">
+          <div class="pg-cell"><div class="pg-size">Small</div><div class="pg-val">$450</div></div>
+          <div class="pg-cell"><div class="pg-size">Medium</div><div class="pg-val">$480</div></div>
+          <div class="pg-cell"><div class="pg-size">Large</div><div class="pg-val">$550</div></div>
+        </div>
+      </div>
+
+      <!-- 6 · SF Detail (Signature) -->
+      <div class="card featured svc-card" style="padding:2.4rem">
+        <div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:1.4rem">
+          <div>
+            <span class="tier-pill tier-sig" style="margin-bottom:.65rem;display:inline-block">★ Signature</span>
+            <div class="card-name">SF Detail</div>
+          </div>
+          <div style="text-align:right">
+            <div class="card-from">From</div>
+            <div class="card-price">$650</div>
+          </div>
+        </div>
+        <div style="flex:1">
+          <div class="inc-label">Includes</div>
+          <div class="feature-row"><span class="dash">—</span>All SF Car Wash services</div>
+          <div class="feature-row"><span class="dash">—</span>All SF Mini Detail services</div>
+          <div class="feature-row"><span class="dash">—</span>Hand wax</div>
+          <div class="feature-row"><span class="dash">—</span>Full rubber protection</div>
+        </div>
+        <div class="price-grid" style="margin-top:1.8rem">
+          <div class="pg-cell"><div class="pg-size">Small</div><div class="pg-val">$650</div></div>
+          <div class="pg-cell"><div class="pg-size">Medium</div><div class="pg-val">$680</div></div>
+          <div class="pg-cell"><div class="pg-size">Large</div><div class="pg-val">$690</div></div>
+        </div>
+      </div>
+
+      <!-- 7 · SF Full Detail -->
+      <div class="card featured svc-card" style="padding:2.4rem">
+        <div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:1.4rem">
+          <div>
+            <span class="tier-pill tier-sig" style="margin-bottom:.65rem;display:inline-block">★★ Full</span>
+            <div class="card-name">SF Full Detail</div>
+          </div>
+          <div style="text-align:right">
+            <div class="card-from">From</div>
+            <div class="card-price">$780</div>
+          </div>
+        </div>
+        <div style="flex:1">
+          <div class="inc-label">Includes</div>
+          <div class="feature-row"><span class="dash">—</span>Oxidation removal</div>
+          <div class="feature-row"><span class="dash">—</span>One-stage orbital wax</div>
+          <div class="feature-row"><span class="dash">—</span>Full rubber protection</div>
+          <div class="feature-row"><span class="dash">—</span>Scuff removal</div>
+          <div class="feature-row"><span class="dash">—</span>SF Mini Detail included</div>
+          <div style="margin-top:1rem">
+            <span class="bm-badge">🔥 Great post-Burning Man cleanup!</span>
+          </div>
+        </div>
+        <div class="price-grid" style="margin-top:1.8rem">
+          <div class="pg-cell"><div class="pg-size">Small</div><div class="pg-val">$780</div></div>
+          <div class="pg-cell"><div class="pg-size">Medium</div><div class="pg-val">$890</div></div>
+          <div class="pg-cell"><div class="pg-size">Large</div><div class="pg-val">$990</div></div>
+        </div>
+      </div>
+
+      <!-- 8 · SF Super Detail (Crown Jewel — spans 2 cols on large screens) -->
+      <div class="card crown svc-card" style="padding:2.4rem">
+        <div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:1.4rem;flex-wrap:wrap;gap:.8rem">
+          <div>
+            <span class="tier-pill tier-crown" style="margin-bottom:.65rem;display:inline-block">★★★ Crown Jewel</span>
+            <div class="card-name" style="font-size:2rem">SF Super Detail</div>
+          </div>
+          <div style="text-align:right">
+            <div class="card-from">Starting at</div>
+            <div class="card-price" style="font-size:2.4rem">$1,090</div>
+          </div>
+        </div>
+        <div style="flex:1">
+          <div class="inc-label">The Ultimate Treatment</div>
+          <div class="feature-row"><span class="dash">—</span>Oxidation removal</div>
+          <div class="feature-row"><span class="dash">—</span>Three-stage polish</div>
+          <div class="feature-row"><span class="dash">—</span>Orbital wax</div>
+          <div class="feature-row"><span class="dash">—</span>Free swirl mark removal</div>
+          <div class="feature-row"><span class="dash">—</span>Special leather protection or fiber cloth seat treatment</div>
+          <div style="background:rgba(200,168,75,.07);border:1px solid rgba(200,168,75,.18);padding:.9rem 1rem;margin-top:1.2rem;font-size:.73rem;color:rgba(246,244,238,.7);line-height:1.7">
+            ⚠ Pricing varies by vehicle specifics — please call to confirm your quote before booking.
+          </div>
+        </div>
+        <div style="margin-top:1.8rem">
+          <a href="tel:4157761844" class="btn-gold" style="width:100%;justify-content:center">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M6.6 10.8c1.4 2.8 3.8 5.1 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1-9.4 0-17-7.6-17-17 0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.3.2 2.5.6 3.6.1.3 0 .7-.2 1L6.6 10.8z"/></svg>
+            Call for Your Custom Quote · 415-776-1844
+          </a>
+        </div>
+      </div>
+
+    </div><!-- /grid -->
+
+    <!-- Notes bar -->
+    <div class="notes-bar js-up" style="padding:2rem 2.4rem;margin-top:.5rem">
+      <div style="font-size:.6rem;font-weight:600;letter-spacing:.22em;text-transform:uppercase;color:var(--gold);margin-bottom:1.1rem">Important Notes</div>
+      <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:.7rem .5rem">
+        <div class="note-item">Prices vary by vehicle size: Small / Medium / Large</div>
+        <div class="note-item">2-Door Coupes are priced as Medium</div>
+        <div class="note-item">Includes all makes, models &amp; motorcycles</div>
+        <div class="note-item">Ceramic Coating available — call to request</div>
+        <div class="note-item">Motor cleaning is <em>not</em> available</div>
+        <div class="note-item">Call 415-776-1844 to schedule your appointment</div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+<!-- ══════════════════════ WHY CHOOSE US ═══════════════════ -->
+<section id="why" style="padding:7rem 0">
+  <div style="max-width:1320px;margin:0 auto;padding:0 2rem">
+
+    <div class="about-cols" style="display:flex;gap:5rem;align-items:center">
+
+      <!-- Left copy -->
+      <div style="flex:0 0 auto;width:100%;max-width:460px">
+        <p class="section-eyebrow js-up" style="margin-bottom:1rem">Why Choose Us</p>
+        <h2 class="section-title js-up" style="margin-bottom:1.2rem">
+          The City's Most<br><em>Trusted</em> Detail
+        </h2>
+        <div class="gold-rule js-up" style="margin-bottom:1.6rem"></div>
+        <p class="js-up" style="font-size:.86rem;color:var(--muted-light);line-height:1.95;margin-bottom:1.4rem">
+          San Francisco Auto Detail combines meticulous hand-crafted technique with professional-grade products and a genuine love for vehicles. We believe every car deserves to look its absolute best.
+        </p>
+        <p class="js-up" style="font-size:.86rem;color:var(--muted-light);line-height:1.95;margin-bottom:2.5rem">
+          From your daily commuter to your prized weekend ride, we service any make and model — including motorcycles. Post Burning Man? We've got you covered.
+        </p>
+        <div class="js-up" style="display:flex;gap:1rem;flex-wrap:wrap">
+          <a href="tel:4157761844" class="btn-gold">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M6.6 10.8c1.4 2.8 3.8 5.1 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1-9.4 0-17-7.6-17-17 0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.3.2 2.5.6 3.6.1.3 0 .7-.2 1L6.6 10.8z"/></svg>
+            Call 415-776-1844
+          </a>
+          <a href="#services" class="btn-outline">See Packages</a>
+        </div>
+      </div>
+
+      <!-- Right grid -->
+      <div style="flex:1;display:grid;grid-template-columns:1fr 1fr;gap:1rem">
+        <div class="why-card why-c">
+          <div class="why-icon">
+            <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path d="M7 11.5V14m0-2.5V9m0 2.5H9.5m-2.5 0H5m14 0c0 4.418-3.134 8-7 8s-7-3.582-7-8 3.134-8 7-8 7 3.582 7 8z"/></svg>
+          </div>
+          <div class="why-title">Hand-Crafted Only</div>
+          <div class="why-desc">Every wash is done entirely by hand using premium microfiber tools — no automated machines, ever.</div>
+        </div>
+        <div class="why-card why-c">
+          <div class="why-icon">
+            <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          </div>
+          <div class="why-title">Paint-Safe Techniques</div>
+          <div class="why-desc">We protect your clear coat and finish with techniques designed to enhance, not harm, your paint.</div>
+        </div>
+        <div class="why-card why-c">
+          <div class="why-icon">
+            <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
+          </div>
+          <div class="why-title">All Vehicles</div>
+          <div class="why-desc">Cars, SUVs, trucks, and motorcycles — any make, any model, any size.</div>
+        </div>
+        <div class="why-card why-c">
+          <div class="why-icon">
+            <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
+          </div>
+          <div class="why-title">SF Local</div>
+          <div class="why-desc">Proudly rooted in San Francisco — local business, local pride, and a local standard of excellence.</div>
+        </div>
+        <div class="why-card why-c" style="grid-column:span 2">
+          <div class="why-icon">
+            <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+          </div>
+          <div class="why-title">Ceramic Coating on Request</div>
+          <div class="why-desc">Want the ultimate long-term paint protection? We offer ceramic coating as a premium add-on. Call us to discuss options and pricing for your specific vehicle.</div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- ══════════════════ CERAMIC ADD-ON BAR ════════════════════ -->
+<div id="ceramic-bar" style="padding:2.8rem 0">
+  <div style="max-width:1320px;margin:0 auto;padding:0 2rem;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:1.5rem">
+    <div>
+      <div class="section-eyebrow js-up" style="margin-bottom:.5rem">Premium Add-On</div>
+      <div class="f-display js-up" style="font-size:1.9rem;font-weight:600">Ceramic Coating</div>
+      <div class="js-up" style="font-size:.78rem;color:var(--muted-light);margin-top:.35rem">Long-lasting paint protection · Available by appointment · Call to request pricing</div>
+    </div>
+    <a href="tel:4157761844" class="btn-gold js-up">
+      Request Ceramic Coating →
+    </a>
+  </div>
+</div>
+
+
+<!-- ════════════════════════ CTA ══════════════════════════ -->
+<section id="cta" style="padding:10rem 0">
+  <div class="cta-radial"></div>
+  <div class="cta-rings"></div>
+  <div style="position:relative;z-index:2;max-width:800px;margin:0 auto;padding:0 2rem;text-align:center">
+    <p class="section-eyebrow js-up" style="justify-content:center;margin-bottom:1.4rem">Ready to Book?</p>
+    <h2 class="section-title js-up" style="margin-bottom:1.3rem">
+      Call Now to Make<br><em>Your Appointment</em>
+    </h2>
+    <div class="gold-rule js-up" style="margin:0 auto 1.8rem;background:linear-gradient(90deg,transparent,var(--gold),transparent);width:60px"></div>
+    <p class="js-up" style="font-size:.86rem;color:var(--muted-light);line-height:1.9;max-width:420px;margin:0 auto 2.8rem">
+      San Francisco's premier auto detailing service is just one call away. Any make, any model, any size. We'll have your vehicle looking flawless.
+    </p>
+    <div class="js-up" style="margin-bottom:2.2rem">
+      <a href="tel:4157761844" class="phone-big">415-776-1844</a>
+    </div>
+    <div class="js-up">
+      <a href="tel:4157761844" class="btn-gold" style="font-size:.75rem;padding:1.1rem 3rem;display:inline-flex">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M6.6 10.8c1.4 2.8 3.8 5.1 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1-9.4 0-17-7.6-17-17 0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.3.2 2.5.6 3.6.1.3 0 .7-.2 1L6.6 10.8z"/></svg>
+        Book Your Appointment Today
+      </a>
+    </div>
+  </div>
+</section>
+
+
+<!-- ═══════════════════════ FOOTER ════════════════════════ -->
+<footer style="padding:4.5rem 0 2rem">
+  <div style="max-width:1320px;margin:0 auto;padding:0 2rem">
+    <div class="foot-cols" style="display:flex;gap:4rem;margin-bottom:4rem;flex-wrap:wrap">
+
+      <!-- Brand col -->
+      <div style="flex:2;min-width:220px">
+        <div class="foot-logo" style="margin-bottom:1rem">SF <em>Auto</em> Detail</div>
+        <p style="font-size:.78rem;color:var(--muted);line-height:1.9;max-width:280px;margin-bottom:1.4rem">
+          Premium hand-crafted auto detailing for every make and model — including motorcycles — in the heart of San Francisco.
+        </p>
+        <div style="font-size:.62rem;color:rgba(200,168,75,.45);letter-spacing:.12em">Any Make · Any Model · Any Size</div>
+      </div>
+
+      <!-- Services col -->
+      <div style="flex:1;min-width:140px">
+        <div class="foot-col-label">Packages</div>
+        <a href="#pricing" class="foot-link">SF Car Wash</a>
+        <a href="#pricing" class="foot-link">SF Deluxe Wash</a>
+        <a href="#pricing" class="foot-link">SF Ultimate Wash</a>
+        <a href="#pricing" class="foot-link">SF Mini Detail</a>
+        <a href="#pricing" class="foot-link">SF Full Detail</a>
+        <a href="#pricing" class="foot-link">SF Super Detail</a>
+      </div>
+
+      <!-- Contact col -->
+      <div style="flex:1;min-width:160px">
+        <div class="foot-col-label">Contact</div>
+        <div style="margin-bottom:1.4rem">
+          <div style="font-size:.58rem;letter-spacing:.15em;text-transform:uppercase;color:var(--muted);margin-bottom:.3rem">Phone</div>
+          <a href="tel:4157761844" style="font-family:'Cormorant Garamond',serif;font-size:1.6rem;font-weight:600;color:var(--gold);text-decoration:none;transition:color .3s" onmouseover="this.style.color='var(--gold-bright)'" onmouseout="this.style.color='var(--gold)'">415-776-1844</a>
+        </div>
+        <div style="margin-bottom:1rem">
+          <div style="font-size:.58rem;letter-spacing:.15em;text-transform:uppercase;color:var(--muted);margin-bottom:.3rem">Location</div>
+          <div style="font-size:.8rem;color:var(--white)">San Francisco, CA</div>
+        </div>
+        <div>
+          <div style="font-size:.58rem;letter-spacing:.15em;text-transform:uppercase;color:var(--muted);margin-bottom:.3rem">Booking</div>
+          <div style="font-size:.8rem;color:var(--white)">By appointment · Call to schedule</div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Bottom bar -->
+    <div style="border-top:1px solid rgba(255,255,255,.04);padding-top:1.8rem;display:flex;justify-content:space-between;flex-wrap:wrap;gap:1rem">
+      <div style="font-size:.65rem;color:rgba(255,255,255,.18)">© 2025 SF Auto Detail · San Francisco, California · All rights reserved</div>
+      <div style="font-size:.65rem;color:rgba(255,255,255,.18)">Motor cleaning not available · Ceramic coating by appointment only</div>
+    </div>
+  </div>
+</footer>
+
+
+<!-- ═══════════════════════ SCRIPTS ════════════════════════ -->
+<script>
+  /* ── Register plugin ─────────────────────────────── */
+  gsap.registerPlugin(ScrollTrigger);
+
+  /* ── NAV scroll ──────────────────────────────────── */
+  const nav = document.getElementById('nav');
+  window.addEventListener('scroll', () => {
+    nav.classList.toggle('solid', window.scrollY > 60);
+  }, { passive: true });
+
+  /* ── Mobile menu ─────────────────────────────────── */
+  function toggleMenu() {
+    const mm  = document.getElementById('mobile-menu');
+    const ham = document.getElementById('ham');
+    mm.classList.toggle('open');
+    ham.classList.toggle('open');
+  }
+
+  /* ── HERO entrance timeline ──────────────────────── */
+  const htl = gsap.timeline({ delay: 0.15 });
+  htl
+    .from('#h-eye',  { opacity: 0, y: 16, duration: .7, ease: 'power3.out' })
+    .from('.h1-l1',  { opacity: 0, y: 55, duration: .9, ease: 'power4.out' }, '-=.3')
+    .from('.h1-l2',  { opacity: 0, y: 55, duration: .9, ease: 'power4.out' }, '-=.65')
+    .from('.h1-l3',  { opacity: 0, y: 55, duration: .9, ease: 'power4.out' }, '-=.65')
+    .from('#h-div',  { scaleX: 0, transformOrigin: 'left', duration: .8, ease: 'power3.out' }, '-=.5')
+    .from('#h-sub',  { opacity: 0, y: 18, duration: .7, ease: 'power3.out' }, '-=.55')
+    .from('#h-btns > *', { opacity: 0, y: 14, stagger: .14, duration: .65, ease: 'power3.out' }, '-=.45')
+    .from('.stat-item', { opacity: 0, y: 18, stagger: .08, duration: .55, ease: 'power3.out' }, '-=.3')
+    .from('.hero-big-text', { opacity: 0, scale: 1.08, duration: 2.2, ease: 'power3.out' }, 0);
+
+  /* ── Parallax big text ───────────────────────────── */
+  gsap.to('.hero-big-text', {
+    yPercent: -18,
+    ease: 'none',
+    scrollTrigger: { trigger: '#hero', start: 'top top', end: 'bottom top', scrub: true }
+  });
+
+  /* ── Scroll-reveal helper ────────────────────────── */
+  function reveal(selector, vars = {}) {
+    gsap.utils.toArray(selector).forEach(el => {
+      gsap.from(el, {
+        ...{ opacity: 0, y: 38, duration: .85, ease: 'power3.out' },
+        ...vars,
+        scrollTrigger: {
+          trigger: el,
+          start: 'top 87%',
+          toggleActions: 'play none none none'
+        }
+      });
+    });
+  }
+
+  /* ── Service cards staggered reveal ─────────────── */
+  gsap.from('.svc-card', {
+    opacity: 0, y: 50, duration: .8, stagger: .09,
+    ease: 'power3.out',
+    scrollTrigger: { trigger: '#pricing', start: 'top 80%', toggleActions: 'play none none none' }
+  });
+
+  /* ── Why cards stagger ───────────────────────────── */
+  gsap.from('.why-c', {
+    opacity: 0, y: 32, duration: .7, stagger: .1,
+    ease: 'power3.out',
+    scrollTrigger: { trigger: '#why', start: 'top 78%', toggleActions: 'play none none none' }
+  });
+
+  /* ── Generic .js-up elements ─────────────────────── */
+  reveal('.js-up');
+  reveal('.js-fade', { y: 0 });
+  reveal('.js-left',  { x: -28, y: 0 });
+  reveal('.js-right', { x: 28, y: 0 });
+
+  /* ── Gold rules scale-in ─────────────────────────── */
+  gsap.utils.toArray('.gold-rule').forEach(el => {
+    gsap.from(el, {
+      scaleX: 0, transformOrigin: 'left',
+      duration: 1, ease: 'power3.out',
+      scrollTrigger: { trigger: el, start: 'top 88%', toggleActions: 'play none none none' }
+    });
+  });
+
+  /* ── Phone number hover ──────────────────────────── */
+  const ph = document.querySelector('.phone-big');
+  if (ph) {
+    ph.addEventListener('mouseenter', () =>
+      gsap.to(ph, { scale: 1.04, duration: .3, ease: 'power2.out' }));
+    ph.addEventListener('mouseleave', () =>
+      gsap.to(ph, { scale: 1, duration: .3, ease: 'power2.out' }));
+  }
+
+  /* ── Smooth scroll for anchor links ─────────────── */
+  document.querySelectorAll('a[href^="#"]').forEach(a => {
+    a.addEventListener('click', e => {
+      const target = document.querySelector(a.getAttribute('href'));
+      if (!target) return;
+      e.preventDefault();
+      gsap.to(window, {
+        duration: 1.2,
+        scrollTo: { y: target, offsetY: 80 },
+        ease: 'power4.inOut'
+      });
+    });
+  });
+</script>
+
+<!-- GSAP ScrollTo plugin for smooth anchor scrolling -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollToPlugin.min.js"></script>
+<script>
+  // Re-register after ScrollTo loads
+  gsap.registerPlugin(ScrollTrigger);
+</script>
+
+</body>
+</html>
